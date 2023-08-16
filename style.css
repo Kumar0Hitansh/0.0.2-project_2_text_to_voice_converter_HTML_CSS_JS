@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-image: linear-gradient(90deg, rgb(165, 180, 252), rgb(79, 70, 229)); */
+    background: radial-gradient(circle at bottom left,transparent 25%,#BEADFA 25.5%, #BEADFA 36%, transparent 37%, transparent 100%),radial-gradient(circle at top right,transparent 34%,#BEADFA 34.5%, #BEADFA 45.5%, transparent 46%, transparent 100%);
+    background-size: 1em 1em;
+    background-color: #ffffff;
+    opacity: 1
+
+
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: black;
+    margin: 50px 0px;
+
+}
+h1>span{
+    font-size: 60px;
+    color: #ff2963;
+   
+}
+
+textarea{
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+    /* background: #403d84; */
+    background-image: linear-gradient(90deg, rgb(165, 180, 252), rgb(190, 173, 250));
+    border-radius: 35px 35px 0px 0px;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    resize: none;
+    margin: 40px 50px 10px 50px;
+    color: black;
+    font-weight: bolder;
+    
+
+
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+button{
+    background: #ff2963;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 0px 0px 35px 0px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bolder;
+}
+select{
+    flex:1;
+    color: white;
+    /* background: #403d84; */
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 0px 0px  0px 35px;
+    appearance: none;
+    background-image: linear-gradient(90deg, rgb(165, 180, 252), rgb(190, 173, 250));
+    /* background-image: url(caret-down-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 12px; */
+    font-weight: bolder;
+    color: black;
+}
+
